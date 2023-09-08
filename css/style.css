@@ -63,3 +63,47 @@ body {
   color: #6a6a6a;
   margin-top: 4px;
 }
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+}
+.button {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 5px;
+}
+.button.vk {
+  background: #4C75A3;
+}
+.button.tg {
+  background: #08C;
+}
+.button.yt {
+  background: #F00;
+}
+.button.hh {
+  background: #d6001c;
+}
